@@ -12,7 +12,7 @@ https://git-scm.com/download/win
 
 a) 
 
-git config —global user.email “email@example.com”
+git config —-global user.email “email@example.com”
 
 (use your github email in form:
 ID+username@users.noreply.github.com
@@ -20,19 +20,19 @@ ID+username@users.noreply.github.com
 
 and check:
 
-git config —global user.email
+git config —-global user.email
 
 
 b)
-git config —global user.name “FIRST_NAME LAST_NAME”
+git config —-global user.name “FIRST_NAME LAST_NAME”
 
 for example:
 
-git config —global user.name “je-r”
+git config —-global user.name “je-r”
 
 and check:
 
-git config —global user.name
+git config —-global user.name
 
 
 3) test with private repository if commit works 
